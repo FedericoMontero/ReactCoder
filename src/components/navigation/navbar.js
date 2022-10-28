@@ -1,19 +1,10 @@
-import './App.css'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import navbar from './components/navigation/navbar'
-import inicio from './components/pages/inicio'
-import pedido from './components/pages/pedido'
-import perfil from './components/pages/perfil'
+import React from 'react'
 
-
-function App() {
+const navbar = () => {
   return (
-    <div className="App">
-      <Router>
-        <navbar/>
-      </Router>
-
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <div>
+        <h1 className='prueba'>hola</h1> 
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">eTienda</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,12 +26,8 @@ function App() {
                 </div>
             </div>
         </nav>
-
-
-
-
     </div>
-  );
+  )
 }
 
-export default App;
+export default navbar
