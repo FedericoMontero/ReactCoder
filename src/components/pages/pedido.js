@@ -1,6 +1,9 @@
 import React from 'react'
 
-const pedido = () => {
+
+
+const Pedido = () => {
+
   return (
     <div>
       
@@ -8,4 +11,4 @@ const pedido = () => {
   )
 }
 
-export default pedido
+export default Pedido
